@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
-
 /* modif */
 .title2
 {
@@ -29,7 +28,9 @@
     font-style: normal;
     opacity: 0.7;
 }
+
 /* modif */
+
 
 
 body {
@@ -717,8 +718,14 @@ p {
 /*modif*/
 
 .tight-width-whitespace {
-    max-width: 600px;
-    /* margin: auto auto auto auto; */
+    /* max-width: 600px; */
+    /* max-width: 100%; */
+    /* margin: auto; */
+}
+.col-sm-6 {
+}
+.img-responsive {
+    width: 80%;
     margin: auto;
 }
 
@@ -817,12 +824,13 @@ h4 {
     color: #F3976C!important;
 } */
 .tc-white {
-    color: #F3976C!important;
+    color: #df6830!important;
     font-weight: 550;
     background-color: rgb(235, 229, 229);
 }
 .tc-white2 {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    color: #df6830!important;
     font-weight: 550;
 }
 /*modif*/
@@ -943,6 +951,14 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    /*modif*/
+    .img-responsive {
+        width: 80%;
+        margin: auto;
+    }
+    /*modif*/
+
     .page-container {
         overflow-x: hidden;
         position: relative;
