@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
+@font-face {
+    font-display: swap;
+}
+
 /* modif */
 .title2
 {
