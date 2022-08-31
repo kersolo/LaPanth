@@ -10,6 +10,7 @@
     width: 610px;
     /* opacity: 0.8; */
     font-family: 'Archivo', sans-serif;
+    font-display: swap;
     line-height: 1.2em;
 }
 .title3
@@ -22,6 +23,7 @@
     font-size: 20px;
     font-style: italic;
     font-family: 'Klee One', cursive;
+    font-display: swap;
     /* line-height: 100%; */
     line-height: 1.2em;
 }
@@ -584,6 +586,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-display: swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -695,6 +698,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-display: swap;
     font-weight: 400;
     /* color: #575757!important; */
     color: #000000;
@@ -743,6 +747,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-display: swap;
 }
 
 .cta-hero {
