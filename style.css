@@ -38,6 +38,10 @@
 }
 
 
+.center-block {
+    width: 100px;
+}
+
 /* modif */
 
 
@@ -352,6 +356,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
