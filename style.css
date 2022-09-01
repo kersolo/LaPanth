@@ -47,7 +47,10 @@
 .navbar-brand img {
     min-height: 40px;
 }
-
+.form_text {
+    font-size: 20px;
+    color: black;
+}
 /* modif */
 
 
@@ -814,7 +817,9 @@ h4 {
 .white {
     /* color: #FFFFFF!important; */
     /* color: white; */
-    color: #000000;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .portfolio-thumb {
